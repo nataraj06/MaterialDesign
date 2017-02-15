@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Material Design</string>
+    <string name="splash_text">Material Design</string>
+
+    <!--login screens-->
+    <string name="login_user_name">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_button">Login</string>
+    <string name="login_user_name_error_msg">Please enter your username</string>
+    <string name="login_password_error_msg">Please enter the password</string>
 </resources>
