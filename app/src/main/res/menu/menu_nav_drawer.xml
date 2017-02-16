@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_widget"
+            android:checked="true"
+            android:icon="@drawable/ic_nav_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/menu_fab"
+            android:icon="@drawable/ic_nav_fav"
+            android:title="@string/menu_fab" />
+        <item
+            android:id="@+id/menu_snack_bar"
+            android:icon="@drawable/ic_nav_fav"
+            android:title="@string/menu_snack_bar" />
+        <item
+            android:id="@+id/menu_recycler"
+            android:icon="@drawable/ic_nav_fav"
+            android:title="@string/menu_recycler" />
+        <item
+            android:id="@+id/menu_collapsing_tb"
+            android:icon="@drawable/ic_nav_fav"
+            android:title="@string/menu_collapsing_tb" />
+        <item
+            android:id="@+id/menu_tab_layout"
+            android:icon="@drawable/ic_nav_fav"
+            android:title="@string/menu_tab_layout" />
+        <item
+            android:id="@+id/menu_palette"
+            android:icon="@drawable/ic_nav_fav"
+            android:title="@string/menu_palette" />
+        <item
+            android:id="@+id/menu_percent"
+            android:icon="@drawable/ic_nav_fav"
+            android:title="@string/menu_percent" />
+
+        <item android:title="@string/sub_menu_title">
+            <menu>
+                <item
+                    android:id="@+id/sub_menu_settings"
+                    android:icon="@drawable/ic_nav_settings"
+                    android:title="@string/sub_menu_settings" />
+            </menu>
+        </item>
+    </group>
+</menu>
