@@ -24,7 +24,7 @@ public class TextInputLayoutActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_textinputlayout);
 
         tilUserName = (TextInputLayout) findViewById(R.id.login_user_name_til);
         tilPassword = (TextInputLayout) findViewById(R.id.login_password_til);

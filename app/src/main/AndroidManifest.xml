@@ -17,10 +17,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".ui.TextInputLayoutActivity"></activity>
-        <activity android:name=".ui.NavigationViewActivity"></activity>
-
+        <activity
+            android:name=".ui.TextInputLayoutActivity"
+            android:theme="@style/LoginTheme" />
+        <activity
+            android:name=".ui.NavigationViewActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
