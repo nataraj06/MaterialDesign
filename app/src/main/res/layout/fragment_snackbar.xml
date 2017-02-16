@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.reeuse.materialdesign.ui.fragment.SnackbarFragment">
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/snackbar_action_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/snackbar_action"
+        android:textColor="@color/color_default_white"
+        android:textSize="16sp" />
+</RelativeLayout>
