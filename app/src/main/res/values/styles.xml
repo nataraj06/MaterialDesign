@@ -46,5 +46,15 @@
         <item name="rippleColor">@android:color/white</item>
     </style>
 
+    <style name="expanded_appbar" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/color_default_white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="collapsed_appbar" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/color_default_white</item>
+    </style>
 
 </resources>

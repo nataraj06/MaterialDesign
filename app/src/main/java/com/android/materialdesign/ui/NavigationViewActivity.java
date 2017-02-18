@@ -1,5 +1,6 @@
 package com.android.materialdesign.ui;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.ActivityCompat;
@@ -60,6 +61,7 @@ public class NavigationViewActivity extends AppCompatActivity {
                     case R.id.menu_recycler:
                         break;
                     case R.id.menu_collapsing_tb:
+                        startActivity(new Intent(NavigationViewActivity.this, CollapsableToolBarActivity.class));
                         break;
                     case R.id.menu_tab_layout:
                         break;
