@@ -23,10 +23,7 @@
         <activity
             android:name=".ui.NavigationViewActivity"
             android:theme="@style/AppTheme" />
-        <activity
-            android:name=".ui.MainActivity"
-            android:label="@string/title_activity_main"
-            android:theme="@style/AppTheme"></activity>
+        <activity android:name=".ui.CollapsableToolBarActivity"></activity>
     </application>
 
 </manifest>

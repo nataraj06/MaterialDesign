@@ -32,4 +32,6 @@
     <string name="toolbar">Toolbar</string>
     <string name="floating_action_bar">You clicked FloatingActionButton</string>
     <string name="snackbar_action">Show Snackbar</string>
+    <string name="text_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur diam id aliquam scelerisque. Donec ultrices lacus vel </string>
+    <string name="collapsable_toolbar_title">Collapsable Toolbar</string>
 </resources>
