@@ -17,6 +17,7 @@ import android.view.MenuItem;
 
 import com.android.materialdesign.R;
 import com.android.materialdesign.ui.fragments.FloatingActionButtonFragment;
+import com.android.materialdesign.ui.fragments.HomeFragment;
 import com.android.materialdesign.ui.fragments.SnackBarFragment;
 
 public class NavigationViewActivity extends AppCompatActivity {
@@ -30,6 +31,7 @@ public class NavigationViewActivity extends AppCompatActivity {
 
         setUpToolBar();
         setUpNavigationDrawer();
+        setUpFragment(new HomeFragment());
     }
 
     private void setUpToolBar() {
@@ -51,6 +53,7 @@ public class NavigationViewActivity extends AppCompatActivity {
                 switch (menuItem.getItemId()) {
                     case R.id.menu_widget:
                         //handles default home screen
+                        setUpFragment(new HomeFragment());
                         break;
                     case R.id.menu_fab:
                         setUpFragment(new FloatingActionButtonFragment());
@@ -64,8 +67,11 @@ public class NavigationViewActivity extends AppCompatActivity {
                         startActivity(new Intent(NavigationViewActivity.this, CollapsableToolBarActivity.class));
                         break;
                     case R.id.menu_tab_layout:
+                        startActivity(new Intent(NavigationViewActivity.this, TabLayoutActivity.class));
+
                         break;
                     case R.id.menu_palette:
+                        startActivity(new Intent(NavigationViewActivity.this, PaletteConceptActivity.class));
                         break;
                     case R.id.menu_percent:
                         break;
