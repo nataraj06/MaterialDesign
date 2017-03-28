@@ -24,6 +24,8 @@
             android:name=".ui.NavigationViewActivity"
             android:theme="@style/AppTheme" />
         <activity android:name=".ui.CollapsableToolBarActivity"></activity>
+        <activity android:name=".ui.TabLayoutActivity"></activity>
+        <activity android:name=".ui.PaletteConceptActivity"></activity>
     </application>
 
 </manifest>

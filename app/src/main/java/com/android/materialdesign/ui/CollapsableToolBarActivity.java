@@ -5,6 +5,7 @@ import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.MenuItem;
 
 import com.android.materialdesign.R;
 
@@ -33,5 +34,14 @@ public class CollapsableToolBarActivity extends AppCompatActivity {
     private void toolbarTextAppernce() {
         collapsingToolbarLayout.setCollapsedTitleTextAppearance(R.style.collapsed_appbar);
         collapsingToolbarLayout.setExpandedTitleTextAppearance(R.style.expanded_appbar);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            onBackPressed();
+            return true;
+        } else
+            return super.onOptionsItemSelected(item);
     }
 }
