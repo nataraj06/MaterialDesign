@@ -71,7 +71,8 @@ public class NavigationViewActivity extends AppCompatActivity {
 
                         break;
                     case R.id.menu_palette:
-                        startActivity(new Intent(NavigationViewActivity.this, PaletteConceptActivity.class));
+                        //TODO need to work on
+                        //startActivity(new Intent(NavigationViewActivity.this, PaletteConceptActivity.class));
                         break;
                     case R.id.menu_percent:
                         break;
